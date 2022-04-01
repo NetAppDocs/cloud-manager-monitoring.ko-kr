@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 모니터링 서비스의 새로운 기능에 대해 알아보십시오. 
+---
+= 새로운 기능
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+모니터링 서비스의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2021년 8월 1일
+
+
+
+=== 획득 장치 이름으로 변경합니다
+
+획득 유닛 인스턴스의 기본 이름을 CloudInsights-AU-_UUID_로 변경하여 이름을 보다 자세하게 설명하도록 했습니다(UUID는 생성된 해시임).
+
+Cloud Volumes ONTAP 작업 환경에서 모니터링 서비스를 활성화하면 Cloud Manager에서 이 인스턴스를 배포합니다.
+
+
+
+== 2021년 5월 5일
+
+
+
+=== 기존 테넌트 지원
+
+이제 기존 Cloud Insights 테넌트가 있더라도 Cloud Volumes ONTAP 작업 환경에서 모니터링 서비스를 활성화할 수 있습니다.
+
+
+
+=== 무료 평가판 전환
+
+모니터링 서비스를 사용하도록 설정하면 Cloud Manager에서 Cloud Insights 무료 평가판을 설정합니다. 29일, 이제 요금제가 평가판 버전에서 로 자동 전환됩니다 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["기본 버전"^].
+
+
+
+== 2021년 2월 9일
+
+
+
+=== Azure에서 지원
+
+이제 모니터링 서비스는 Cloud Volumes ONTAP for Azure에서 지원됩니다.
+
+
+
+=== 정부 지역 지원
+
+모니터링 서비스는 AWS 및 Azure의 정부 지역에서도 지원됩니다.
+
+
+
+== 2020년 5월 10일
+
+
+
+=== 모니터링 서비스를 소개합니다
+
+NetApp의 Cloud Insights 서비스를 활용하여 Cloud Manager는 Cloud Volumes ONTAP 인스턴스의 상태와 성능에 대한 통찰력을 제공하며 클라우드 스토리지 환경의 성능을 문제 해결 및 최적화할 수 있도록 도와줍니다.

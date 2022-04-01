@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: quick start, get started 
+summary: 몇 가지 단계를 완료하여 Cloud Volumes ONTAP 성능 모니터링을 시작합니다. 
+---
+= 모니터링 서비스를 빠르게 시작합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+몇 가지 단계를 완료하여 Cloud Volumes ONTAP 성능 모니터링을 시작합니다.
+
+
+
+== 빠른 시작
+
+다음 단계를 따라 빠르게 시작하거나 나머지 섹션으로 스크롤하여 자세한 내용을 확인하십시오.
+
+.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] Alt="One"></span> 구성에 대한 지원을 확인합니다
+* AWS 또는 Azure에서 실행 중인 Cloud Volumes ONTAP 시스템이 필요합니다.
+* AWS의 경우 Connector 3.8.4 버전 이상이 필요합니다.
+* Azure의 경우 버전 3.9.3 이상을 실행하는 커넥터가 필요합니다.
+
+
+[role="quick-margin-para"]
+link:task-enable-monitoring.html["요구사항에 대해 자세히 알아보십시오"].
+
+.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png"[] Alt="Two"></span>새 시스템이나 기존 시스템에서 모니터링을 활성화합니다
+* 새로운 작업 환경: 작업 환경을 만들 때 모니터링을 활성 상태로 유지해야 합니다(기본적으로 활성화됨).
+* 기존 작업 환경: 작업 환경을 선택하고 * 모니터링 시작 * 을 클릭합니다.
+
+
+[role="quick-margin-para"]
+link:task-enable-monitoring.html["모니터링 서비스 활성화에 대해 자세히 알아보십시오"].
+
+[role="quick-margin-para"]
+Monitoring * 을 클릭하고 볼륨의 성능 데이터를 확인합니다.
+
+[role="quick-margin-para"]
+link:task-monitor-volumes.html["성능 모니터링에 대해 자세히 알아보십시오"].

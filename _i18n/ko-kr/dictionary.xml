@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="339d08e446e794ca396ae41b58022077" category="summary">몇 가지 단계를 완료하여 Cloud Volumes ONTAP 성능 모니터링을 시작합니다.</block>
+  <block id="1ab0bb448488f7a68322d61506a5b0d2" category="doc">모니터링 서비스를 빠르게 시작합니다</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
+  <block id="2433628c53fed80ea9d352a1bcd9ce45" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션으로 스크롤하여 자세한 내용을 확인하십시오.</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="9637543697c707cfc64db2a64d650753" category="list-title">span class="image"&gt;&lt;img src=<block ref="0c3becc25d95e48b9ca863002a042824" category="inline-link-rx"></block> Alt="One"&gt;&lt;/span&gt; 구성에 대한 지원을 확인합니다</block>
+  <block id="3436cae55d61cb022107d716f1026390" category="list-text">AWS 또는 Azure에서 실행 중인 Cloud Volumes ONTAP 시스템이 필요합니다.</block>
+  <block id="a96e7207e1d1f6fe986a07c9257d7a3b" category="list-text">AWS의 경우 Connector 3.8.4 버전 이상이 필요합니다.</block>
+  <block id="1aef5b8f3d21c01225cba8235f6cdde1" category="list-text">Azure의 경우 버전 3.9.3 이상을 실행하는 커넥터가 필요합니다.</block>
+  <block id="966a8429dbb528261aa2482a1ca79d72" category="inline-link-macro">요구사항에 대해 자세히 알아보십시오</block>
+  <block id="8e69106cfff76d6c1a339b8cd383b4e9" category="paragraph"><block ref="148dbc69044ff57333f3548ae1cc891e" category="inline-link-macro-rx"></block>.</block>
+  <block id="722633358ba31d7707c65d27ddf3d008" category="list-title">span class="image"&gt;&lt;img src=<block ref="c9bdd0fd7d7224adcf67691b15f15281" category="inline-link-rx"></block> Alt="Two"&gt;&lt;/span&gt;새 시스템이나 기존 시스템에서 모니터링을 활성화합니다</block>
+  <block id="81cf96b7a3a7a2208f9d0015459ae5bb" category="list-text">새로운 작업 환경: 작업 환경을 만들 때 모니터링을 활성 상태로 유지해야 합니다(기본적으로 활성화됨).</block>
+  <block id="7177e20d9e879af87a3791ebd8267cd4" category="list-text">기존 작업 환경: 작업 환경을 선택하고 * 모니터링 시작 * 을 클릭합니다.</block>
+  <block id="54f56046aaaf448c99b88b8d001bc955" category="inline-link-macro">모니터링 서비스 활성화에 대해 자세히 알아보십시오</block>
+  <block id="3e3868ac048b162f0784657d51c12860" category="paragraph"><block ref="7cadc116ecc87f791f0e2cb91a7b3b38" category="inline-link-macro-rx"></block>.</block>
+  <block id="e9505bfa1fdf9d5b80a391f1e2afc220" category="paragraph">Monitoring * 을 클릭하고 볼륨의 성능 데이터를 확인합니다.</block>
+  <block id="b39129436fe706412985a2b4f3133d64" category="inline-link-macro">성능 모니터링에 대해 자세히 알아보십시오</block>
+  <block id="7005b1402df68d468d064a3a55a00548" category="paragraph"><block ref="c084514e15d19b3910db959b18e3620c" category="inline-link-macro-rx"></block>.</block>
+  <block id="0c6e6eead13e14e9e7af4cd4f9670fa4" category="summary">더 이상 Cloud Volumes ONTAP를 모니터링하지 않으려는 경우 언제든지 모니터링 서비스를 비활성화할 수 있습니다.</block>
+  <block id="dc0b4c4961a51250a7863d226048ea35" category="doc">모니터링 서비스를 비활성화합니다</block>
+  <block id="0a6429eb3446b81ee99de3f8efd0eb55" category="paragraph">각 작업 환경에서 모니터링을 사용하지 않도록 설정하는 경우 가상 머신 인스턴스를 직접 삭제해야 합니다. 인스턴스의 이름은 _AcquisionUnit_이며 생성된 해시(UUID)와 연결됩니다. 예: _ AcquisionUnit - FAN7FqeH _</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="61c2f2d570697060ba80bae6ffdd50f8" category="list-text">Cloud Manager 상단에서 * Canvas * 를 클릭합니다.</block>
+  <block id="d51a07decbe601cbb24e543eb1a87686" category="list-text">작업 환경을 선택합니다.</block>
+  <block id="bd4d542c04b14b8a7e8b4272920facf7" category="inline-image-macro">작업 환경을 선택한 후 서비스 창에 표시되는 옵션 아이콘의 스크린샷</block>
+  <block id="8af580a9a4eb8c37f4d3a80e90478654" category="list-text">오른쪽 창에서 을 클릭합니다 <block ref="2672f207370cb64bb5a95d61842ce25b" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 * 스캔 비활성화 * 를 선택합니다.</block>
+  <block id="c6712c57a0afb817a7b956edea075886" category="summary">모니터링 서비스의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
+  <block id="feaee5d58494deaebb1ce5a1c3fce93b" category="section-title">2021년 8월 1일</block>
+  <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">획득 장치 이름으로 변경합니다</block>
+  <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">획득 유닛 인스턴스의 기본 이름을 CloudInsights-AU-_UUID_로 변경하여 이름을 보다 자세하게 설명하도록 했습니다(UUID는 생성된 해시임).</block>
+  <block id="3ee7977b62b54344390843236b7b7fbe" category="paragraph">Cloud Volumes ONTAP 작업 환경에서 모니터링 서비스를 활성화하면 Cloud Manager에서 이 인스턴스를 배포합니다.</block>
+  <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021년 5월 5일</block>
+  <block id="e192d178d731a26f369fc9ded8b836ed" category="section-title">기존 테넌트 지원</block>
+  <block id="10df6526a8d972614ac33d019e498209" category="paragraph">이제 기존 Cloud Insights 테넌트가 있더라도 Cloud Volumes ONTAP 작업 환경에서 모니터링 서비스를 활성화할 수 있습니다.</block>
+  <block id="261bb9c11863cc45e7b0056b34cabf2c" category="section-title">무료 평가판 전환</block>
+  <block id="4f407ad617aec7f56138e7f5dcb581be" category="inline-link">기본 버전</block>
+  <block id="1cb2499c8013bb0ab523a856eeaa4c6f" category="paragraph">모니터링 서비스를 사용하도록 설정하면 Cloud Manager에서 Cloud Insights 무료 평가판을 설정합니다. 29일, 이제 요금제가 평가판 버전에서 로 자동 전환됩니다<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>.</block>
+  <block id="efeacc9945f3d51aeaecae7e217dd7c9" category="section-title">2021년 2월 9일</block>
+  <block id="049a56718afb4bc754cebf8a5567c3c8" category="section-title">Azure에서 지원</block>
+  <block id="0627ad1b1205310c0a00e6213dc9ee59" category="paragraph">이제 모니터링 서비스는 Cloud Volumes ONTAP for Azure에서 지원됩니다.</block>
+  <block id="308527077ec474b731b7715b5cd1deb2" category="section-title">정부 지역 지원</block>
+  <block id="d90533b31d8a70a6866bd47c12676ca9" category="paragraph">모니터링 서비스는 AWS 및 Azure의 정부 지역에서도 지원됩니다.</block>
+  <block id="10e15e8c8cca4454457cc4aaa2a56097" category="section-title">2020년 5월 10일</block>
+  <block id="bd64f294036bab1f6e7e3bfc511da26b" category="section-title">모니터링 서비스를 소개합니다</block>
+  <block id="2e68ff3befd8bbfb2e75d69f325369b3" category="paragraph">NetApp의 Cloud Insights 서비스를 활용하여 Cloud Manager는 Cloud Volumes ONTAP 인스턴스의 상태와 성능에 대한 통찰력을 제공하며 클라우드 스토리지 환경의 성능을 문제 해결 및 최적화할 수 있도록 도와줍니다.</block>
+  <block id="aa6490d8d0bb54f0f72cb49b62bd06bf" category="doc">볼륨 성능 모니터링을 시작합니다</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
+  <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">다음 요구 사항을 읽고 지원되는 구성이 있는지 확인합니다.</block>
+  <block id="e448b41406bd3d4d9730e610e85df32d" category="list-text">지원되는 Cloud Volumes ONTAP 버전</block>
+  <block id="a8eb554349a8a8bb7c2c877209e15dee" category="list-text">AWS 또는 Azure의 모든 Cloud Volumes ONTAP 버전</block>
+  <block id="c0b998714a9baf13f4812241f514854b" category="list-text">지원되는 커넥터</block>
+  <block id="54e982e1bea27e6634e277d138312f30" category="inline-image-macro">Cloud Manager의 오른쪽 위에 있는 도움말 아이콘의 스크린샷</block>
+  <block id="29f63f81321cc3df254e183a50de778e" category="admonition">을 클릭하여 Connector의 버전을 볼 수 있습니다 <block ref="2e8b5b9a47659ba21cf2a64bede79308" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭한 다음 * 지원 &gt; 커넥터 * 를 클릭합니다.</block>
+  <block id="463217a023d354188941f7a0fa562d79" category="list-text">Cloud Central의 이메일 주소입니다</block>
+  <block id="20c6da5a2921935ebcfd7a383c4d6ba4" category="list-text">Cloud Central 사용자 계정의 이메일 주소는 회사 이메일 주소여야 합니다. Cloud Insights 테넌트를 생성할 때 Gmail 및 Hotmail과 같은 무료 이메일 도메인은 지원되지 않습니다.</block>
+  <block id="f70c369ade93c7f80b291eb399f94b16" category="list-text">획득 장치에 대한 네트워킹</block>
+  <block id="64f520fabd7581bd853900d392dd3a6f" category="list-text">획득 장치는 양방향/상호 인증을 사용하여 Cloud Insights 서버에 연결합니다. 인증을 받으려면 클라이언트 인증서를 Cloud Insights 서버로 전달해야 합니다. 이 작업을 수행하려면 데이터 암호를 해독하지 않고 http 요청을 Cloud Insights 서버로 전달하도록 프록시를 설정해야 합니다.</block>
+  <block id="f78ae7308aff68585547ec5cf9193336" category="paragraph">획득 장치는 다음 두 개의 끝점을 사용하여 Cloud Insights와 통신합니다. 획득 장치 서버와 Cloud Insights 사이에 방화벽이 있는 경우 방화벽 규칙을 구성할 때 다음 엔드포인트가 필요합니다.</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
+  <block id="878936c50100fc7474bbaec4e7cd5120" category="paragraph">Cloud Insights 도메인 및 테넌트 ID를 확인하는 데 도움이 필요한 경우 제품 내 채팅을 통해 문의하십시오.</block>
+  <block id="cb8f276755e2feb7387afd4c7b1978d4" category="list-text">커넥터용 네트워킹</block>
+  <block id="43b1e609912f355d005371a2cf7ffff4" category="list-text">획득 장치와 마찬가지로 커넥터는 Cloud Insights 테넌트에 대한 아웃바운드 연결을 가져야 합니다. 그러나 커넥터 접촉부가 약간 다른 끝점입니다. 테넌트 호스트 URL에 단축된 테넌트 ID를 사용하여 연결합니다.</block>
+  <block id="bfd8f5dfed95659e77e67dd36c87fed8" category="paragraph">테넌트 호스트 URL을 확인하는 데 도움이 필요한 경우 제품 내 채팅을 통해 문의하실 수 있습니다.</block>
+  <block id="d5794ffcf56dea5e71353ace487ef015" category="section-title">새 시스템에서 모니터링 활성화</block>
+  <block id="5f43c063cec8eacc2a99b54439e779e1" category="paragraph">모니터링 서비스는 작업 환경 마법사에서 기본적으로 설정됩니다. 옵션을 활성 상태로 유지해야 합니다.</block>
+  <block id="36233220222760341fc9ff566bc8f320" category="list-text">Create Cloud Volumes ONTAP * 를 클릭합니다.</block>
+  <block id="934582af2cf86f894f5b54d9cad4ff7f" category="list-text">클라우드 공급자로 Amazon Web Services 또는 Microsoft Azure를 선택하고 단일 노드 또는 HA 시스템을 선택합니다.</block>
+  <block id="b44abc3e5e8508124c9a497fba2888b2" category="list-text">세부 정보 및 자격 증명 페이지를 입력합니다.</block>
+  <block id="ce13cef2f3b167157a6c73fd0f66fecb" category="list-text">서비스 페이지에서 모니터링 서비스를 활성 상태로 두고 * 계속 * 을 클릭합니다.</block>
+  <block id="b6f16a04b8d23dde168f57dff4599a1a" category="inline-image-macro">작업 환경 마법사에서 설정할 수 있는 모니터링 서비스 스크린샷</block>
+  <block id="14b1f69f5ec9bad5e292ed1fa5ef7c82" category="paragraph"><block ref="14b1f69f5ec9bad5e292ed1fa5ef7c82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8489828b7ec97229434c2645bbaac9d" category="section-title">기존 시스템에서 모니터링을 활성화합니다</block>
+  <block id="70219235e104b2c2094126a70e6fa665" category="paragraph">작업 환경에서 언제든지 모니터링이 가능합니다.</block>
+  <block id="ad2c0318c46ba61ac2883f938e0e0600" category="list-text">오른쪽 창에서 * 모니터링 시작 * 을 클릭합니다.</block>
+  <block id="1ae9ad4bc4960de1115906f11d6e1adb" category="inline-image-macro">[작업 환경을 선택한 후 Canvas 페이지에서 사용할 수 있는 모니터링 시작 아이콘을 보여 주는 스크린샷.</block>
+  <block id="e5deca5d20df0bf0a9dab80fcb17f9af" category="paragraph"><block ref="e5deca5d20df0bf0a9dab80fcb17f9af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="deffe34bfa02de7443259988e07452bf" category="summary">Cloud Volumes ONTAP 인스턴스의 상태 및 성능에 대한 통찰력을 얻고 클라우드 스토리지 환경의 성능을 문제 해결과 최적화할 수 있습니다.</block>
+  <block id="ce77715626079095fa554aca4f19278b" category="doc">볼륨 성능을 모니터링합니다</block>
+  <block id="5fb419e147d98d742049266613a54dde" category="section-title">Cloud Manager에서 볼륨을 모니터링합니다</block>
+  <block id="03db9ce65a673b138b228fbe2e12eb37" category="paragraph">각 볼륨의 IOPS, 처리량, 지연 시간을 확인하여 성능을 모니터링합니다.</block>
+  <block id="b540c8a032617aa935821e95ad38b399" category="list-text">Cloud Manager 상단에서 * 모니터링 * 을 클릭합니다.</block>
+  <block id="efbd49f3e0931551e223f659593ee988" category="list-text">필요한 정보를 얻으려면 대시보드의 콘텐츠를 필터링합니다.</block>
+  <block id="c4135490996ef9ff0f664403bcc266dc" category="list-text">특정 작업 환경을 선택합니다.</block>
+  <block id="2edae6809e5c396d7d9a9b8c2b53891a" category="list-text">다른 기간을 선택하십시오.</block>
+  <block id="3a4eec94021ac99757dde286a16f3887" category="list-text">특정 SVM을 선택합니다.</block>
+  <block id="b94eb16931c83d4321829861a106e727" category="list-text">특정 볼륨을 검색합니다.</block>
+  <block id="4c3e1e4eb0e483bf5e5aadae996d1f7a" category="paragraph">다음 이미지는 이러한 각 옵션을 강조합니다.</block>
+  <block id="c04458deca68801da23d68400c1b3325" category="inline-image-macro">대시보드의 콘텐츠를 필터링하는 데 사용할 수 있는 옵션을 보여 주는 모니터링 탭의 스크린샷</block>
+  <block id="52bc2dc0bc27bb6ef464947fde4da440" category="paragraph"><block ref="52bc2dc0bc27bb6ef464947fde4da440" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c30786cdd7a41f051c80f178aff0857c" category="list-text">표에서 볼륨을 클릭하여 행을 확장하고 IOPS, 처리량, 지연 시간의 일정을 봅니다.</block>
+  <block id="3230c78207b2d29da977185127f81097" category="inline-image-macro">볼륨의 성능 데이터 스크린샷.</block>
+  <block id="9c5db291f203b608d5f57c73525e0dbf" category="paragraph"><block ref="9c5db291f203b608d5f57c73525e0dbf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="96d807138428151372197a6d9624b546" category="list-text">데이터를 사용하여 성능 문제를 식별하여 사용자와 앱에 미치는 영향을 최소화합니다.</block>
+  <block id="bf917a1aa0404d3eb4b93f1f5744bee3" category="section-title">Cloud Insights에서 자세한 정보를 확인하십시오</block>
+  <block id="401751e94a8b713556633718c6c320eb" category="paragraph">Cloud Manager의 모니터링 탭은 볼륨에 대한 기본 성능 데이터를 제공합니다. 브라우저에서 Cloud Insights 웹 인터페이스로 이동하여 보다 심층적인 모니터링을 수행하고 Cloud Volumes ONTAP 시스템에 대한 경고를 구성할 수 있습니다.</block>
+  <block id="d93a59356f8e96bcd7f4f666092ec051" category="list-text">Cloud Insights * 링크를 클릭합니다.</block>
+  <block id="2c1cef4b70d93bb3ae9b1cc5d0686e97" category="inline-image-macro">모니터링 탭의 오른쪽 상단에서 사용할 수 있는 Cloud Insights 링크를 보여 주는 스크린샷</block>
+  <block id="435b794d014c687856a5fbf6705d2f73" category="paragraph"><block ref="435b794d014c687856a5fbf6705d2f73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5858ee4031acd7b896faa2d3d2c1a299" category="inline-link">Cloud Insights 설명서</block>
+  <block id="1fe8d87b5f1ace8b1433a3db69350bb9" category="paragraph">Cloud Insights가 새 브라우저 탭에서 열립니다. 도움이 필요한 경우 을 참조하십시오<block ref="2021330658681c480a1c22f14e5975a3" category="inline-link-rx"></block>.</block>
+  <block id="6fd0c588599938b0c620f37d7880bd87" category="summary">NetApp의 Cloud Insights 서비스를 활용하는 Cloud Manager는 모든 Cloud Volumes ONTAP 인스턴스의 상태와 성능에 대한 통찰력을 제공하고 클라우드 스토리지 환경의 성능을 문제 해결과 최적화할 수 있도록 지원합니다.</block>
+  <block id="32170de6c2f418678b9e314d24c62ca6" category="doc">모니터링 서비스에 대해 자세히 알아보십시오</block>
+  <block id="4705a9f54a4ed415236b026bb7caa102" category="paragraph">모니터링 서비스는 Cloud Volumes ONTAP 인스턴스의 상태와 성능을 통찰하고 클라우드 스토리지 환경의 성능을 문제 해결 및 최적화할 수 있도록 도와줍니다.</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
+  <block id="8db40d74df4f0e54845a3f4a0752ff0d" category="list-text">모든 볼륨을 자동으로 모니터링합니다</block>
+  <block id="eb7d5bc3ef800303720d2999fd055d5b" category="list-text">IOPS, 처리량, 지연 시간 측면에서 볼륨 성능 데이터를 봅니다</block>
+  <block id="d6c81bc0bc0182b6bbc0e862c3da7ba6" category="list-text">성능 문제를 식별하여 사용자와 앱의 영향을 최소화합니다</block>
+  <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">지원되는 클라우드 공급자</block>
+  <block id="8ff75c7d09342d288b4412c52f87971a" category="paragraph">모니터링 서비스는 Cloud Volumes ONTAP for AWS 및 Cloud Volumes ONTAP for Azure에서 지원됩니다.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
+  <block id="fa19b0daec31b7f6886f071c67bfffb7" category="paragraph">NetApp은 모니터링 서비스 사용에 대해 비용을 청구하지 않지만, Cloud Manager는 VPC에서 모니터링을 지원하는 가상 머신을 실행합니다. 이 VM은 클라우드 공급자가 비용을 청구합니다.</block>
+  <block id="d503d3398231cca32efdcf7ed7343e9b" category="section-title">모니터링 서비스의 작동 방식</block>
+  <block id="fbc1b4a0f7bb67078efc945ccc522209" category="inline-link">NetApp의 Cloud Insights 서비스</block>
+  <block id="86dd05002b53a9ec34631df8c61c5eb5" category="paragraph">Cloud Manager는 을 활용합니다<block ref="8f14085ef9c431637844b17f8a8925a1" category="inline-link-rx"></block> 모니터링 제공</block>
+  <block id="45c5224446b8976746c72ff5d83fa9b0" category="paragraph">고수준에서 Cloud Insights와 Cloud Manager의 통합은 다음과 같이 작동합니다.</block>
+  <block id="268403689d82b63a213d45d09ea47780" category="list-text">Cloud Volumes ONTAP에서 모니터링 서비스를 활성화합니다.</block>
+  <block id="6ac560cbe2255cabde3b2b9e7877bcb8" category="list-text">Cloud Manager가 환경을 구성합니다. 다음과 같은 작업을 수행합니다.</block>
+  <block id="dce462d2bb34aacfd0cf51011e910a32" category="list-text">Cloud Insights 테넌트(_environment_라고도 함)를 생성하고 NetApp 계정의 모든 사용자를 테넌트에 연결합니다.</block>
+  <block id="3ba2326641aeaab24a6692b74f38194e" category="paragraph">이미 테넌트가 있는 경우 Cloud Manager는 해당 기존 테넌트를 사용합니다.</block>
+  <block id="e8675a7ad8e9fce3fc3f468a4298e9f0" category="list-text">Cloud Insights 무료 평가판을 사용할 수 있습니다.</block>
+  <block id="96ab8183ce5eb8d22795330f1b747082" category="paragraph">29일, 귀하의 계획은 시험 버전에서 로 자동 전환됩니다<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>.</block>
+  <block id="98b1628f6934214f44b47ac1cd608b5b" category="list-text">획득 단위라고 하는 VPC/VNET에 가상 머신을 구축합니다. 획득 장치는 볼륨 모니터링을 용이하게 합니다(위의 비용 섹션에서 언급한 VM).</block>
+  <block id="8dd98fb78d1ae659ef53ce0c68eb5e49" category="list-text">획득 장치를 Cloud Volumes ONTAP 및 Cloud Insights 테넌트에 연결합니다.</block>
+  <block id="fd0f7b80488c5fcf1b6deef9a426c846" category="list-text">Cloud Manager에서 모니터링을 클릭하고 성능 데이터를 사용하여 문제를 해결하고 성능을 최적화할 수 있습니다.</block>
+  <block id="a456619865997a1bae5cefb7fc6f9718" category="paragraph">다음 이미지는 AWS VPC에서 이러한 구성 요소 간의 관계를 보여줍니다.</block>
+  <block id="ad416b6dcff599c4020128b2dc175114" category="inline-image-macro">AWS의 Cloud Manager, Cloud Volumes ONTAP 및 획득 장치를 보여주는 개념도입니다.</block>
+  <block id="a6ecefab3fbedbdf095d62e2de9b9ac8" category="paragraph"><block ref="a6ecefab3fbedbdf095d62e2de9b9ac8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9decaae2954075c30e05c28d69d200f0" category="section-title">획득 장치</block>
+  <block id="7851196f2573d6e8c220efc2cee98de2" category="paragraph">모니터링을 활성화하면 Cloud Manager는 Connector와 동일한 서브넷에 획득 장치를 배포합니다.</block>
+  <block id="39b529c64b7959028373fbbc7684872c" category="paragraph">획득 장치 _ 는 Cloud Volumes ONTAP에서 성능 데이터를 수집하여 Cloud Insights 테넌트로 전송합니다. 그런 다음 Cloud Manager가 해당 데이터를 쿼리하여 사용자에게 제공합니다.</block>
+  <block id="945e0fed9a7bdec584435e6c7d8141d1" category="paragraph">획득 장치 인스턴스에 대해 다음 사항에 유의하십시오.</block>
+  <block id="ff91a9909762bc340b1c5b0819a7517b" category="list-text">AWS에서 획득 장치는 100GiB GP2 볼륨과 함께 T3.xLarge 인스턴스에서 실행됩니다.</block>
+  <block id="ba745553d62ccfed8b0dff7ed60d5f73" category="list-text">Azure에서 획득 장치는 30GiB 표준 SSD를 사용하는 D4_v3 가상 시스템에서 실행됩니다.</block>
+  <block id="9e558a3b953a3bced53e2b64330725ae" category="list-text">인스턴스의 이름은 _CloudInsights-AU_이며 생성된 해시(UUID)가 이 인스턴스에 연결되어 있습니다. 예: _CloudInsights-AU-FAN7FqeH_</block>
+  <block id="87537d4e762a444d69db1be46b28bb93" category="list-text">커넥터당 하나의 획득 장치만 배치됩니다.</block>
+  <block id="83eea2a335a5cbcbe2f57d854e3cb429" category="list-text">모니터링 탭의 성능 정보에 액세스하려면 인스턴스가 실행 중이어야 합니다.</block>
+  <block id="67943efa4764fd5a2ed47b9ff46c7b92" category="section-title">Cloud Insights 테넌트</block>
+  <block id="e459959dbdc40c7393b40fd2b3adb238" category="paragraph">아직 _tenant_가 없는 경우 Cloud Manager는 모니터링을 설정할 때 이를 설정합니다. Cloud Insights 테넌트를 사용하면 획득 장치가 수집하는 성능 데이터에 액세스할 수 있습니다. 테넌트는 NetApp Cloud Insights 서비스 내의 보안 데이터 파티션입니다.</block>
+  <block id="7826a608f0d613bb79ae213c751a25c8" category="section-title">Cloud Insights 웹 인터페이스</block>
+  <block id="2f86b910a7b81bfc6563aa6d71bfc194" category="section-title">무료 평가판 및 구독</block>
+  <block id="93640c5afac4938bee23d7df2567bb9d" category="paragraph">Cloud Manager를 사용하면 Cloud Insights의 무료 평가판을 통해 클라우드 관리자 내에서 성능 데이터를 제공하고 Cloud Insights Standard Edition이 제공하는 기능을 탐색할 수 있습니다.</block>
+  <block id="3b7f31bb4dbb02b16991990721560e9e" category="paragraph">Cloud Insights 웹 인터페이스에서 추가 기능에 액세스할 수 있도록 Standard 또는 Premium Edition을 구독할 수 있습니다.</block>
+  <block id="cd787eb9914f30d028c173de936884d8" category="inline-link">Cloud Insights 구독 방법에 대해 알아보십시오</block>
+  <block id="ea897b0b99e2fad4f21581f468aafa9c" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block>.</block>
+  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
+  <block id="7ccaf84febc0ed633fbdbadb8d488a7e" category="paragraph"><block ref="7ccaf84febc0ed633fbdbadb8d488a7e" category="inline-link-macro-rx"></block></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
+  <block id="6f2ac1cf1da8ec34232c651d4bba0149" category="paragraph"><block ref="6f2ac1cf1da8ec34232c651d4bba0149" category="inline-link-macro-rx"></block></block>
+  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9에 대한 고지 사항</block>
+  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="paragraph"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
+  <block id="fc3ce0993b85ae920c5c4abc5708ad3b" category="summary">Cloud Volumes ONTAP의 상태 및 성능에 대한 통찰력을 확보하여 클라우드 스토리지 환경의 문제를 해결하고 성능을 최적화할 수 있습니다.</block>
+  <block id="1ac803a5cd07a2a8ed4a9e24b65ebbf9" category="doc">모니터링 문서</block>
+  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
+  <block id="d53e2559d6ace0e907fc57192bf286b6" category="paragraph"><block ref="d53e2559d6ace0e907fc57192bf286b6" category="inline-link-macro-rx"></block></block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="912bed1d23c871964d4d8656f78f54b8" category="sidebar">모니터링 문서</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="2a8c90464d0bceecefc5742b343edc30" category="sidebar">모니터링 서비스를 사용합니다</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="729e3399d869de5540bc06d71a6bcf81" category="sidebar">모니터링을 활성화합니다</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+</blocks>
