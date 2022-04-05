@@ -29,7 +29,6 @@
   <block id="8af580a9a4eb8c37f4d3a80e90478654" category="list-text">오른쪽 창에서 을 클릭합니다 <block ref="2672f207370cb64bb5a95d61842ce25b" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 * 스캔 비활성화 * 를 선택합니다.</block>
   <block id="c6712c57a0afb817a7b956edea075886" category="summary">모니터링 서비스의 새로운 기능에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
-  <block id="feaee5d58494deaebb1ce5a1c3fce93b" category="section-title">2021년 8월 1일</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">획득 장치 이름으로 변경합니다</block>
   <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">획득 유닛 인스턴스의 기본 이름을 CloudInsights-AU-_UUID_로 변경하여 이름을 보다 자세하게 설명하도록 했습니다(UUID는 생성된 해시임).</block>
   <block id="3ee7977b62b54344390843236b7b7fbe" category="paragraph">Cloud Volumes ONTAP 작업 환경에서 모니터링 서비스를 활성화하면 Cloud Manager에서 이 인스턴스를 배포합니다.</block>
@@ -39,7 +38,6 @@
   <block id="261bb9c11863cc45e7b0056b34cabf2c" category="section-title">무료 평가판 전환</block>
   <block id="4f407ad617aec7f56138e7f5dcb581be" category="inline-link">기본 버전</block>
   <block id="1cb2499c8013bb0ab523a856eeaa4c6f" category="paragraph">모니터링 서비스를 사용하도록 설정하면 Cloud Manager에서 Cloud Insights 무료 평가판을 설정합니다. 29일, 이제 요금제가 평가판 버전에서 로 자동 전환됩니다<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>.</block>
-  <block id="efeacc9945f3d51aeaecae7e217dd7c9" category="section-title">2021년 2월 9일</block>
   <block id="049a56718afb4bc754cebf8a5567c3c8" category="section-title">Azure에서 지원</block>
   <block id="0627ad1b1205310c0a00e6213dc9ee59" category="paragraph">이제 모니터링 서비스는 Cloud Volumes ONTAP for Azure에서 지원됩니다.</block>
   <block id="308527077ec474b731b7715b5cd1deb2" category="section-title">정부 지역 지원</block>
@@ -170,4 +168,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021년 8월 1일</block>
+  <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021년 2월 9일</block>
 </blocks>
