@@ -7,6 +7,7 @@ summary: Cloud Volumes ONTAP의 상태 및 성능에 대한 통찰력을 확보�
 ---
 = 모니터링 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

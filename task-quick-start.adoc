@@ -6,6 +6,7 @@ summary: 몇 가지 단계를 완료하여 Cloud Volumes ONTAP 성능 모니터�
 ---
 = 모니터링 서비스를 빠르게 시작합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP 인스턴스의 상태 및 성능에 대한 통찰�
 ---
 = 볼륨 성능을 모니터링합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

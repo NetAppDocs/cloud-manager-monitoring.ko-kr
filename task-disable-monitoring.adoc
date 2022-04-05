@@ -6,6 +6,7 @@ summary: 더 이상 Cloud Volumes ONTAP를 모니터링하지 않으려는 경�
 ---
 = 모니터링 서비스를 비활성화합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
