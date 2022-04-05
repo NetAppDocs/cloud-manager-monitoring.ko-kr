@@ -40,7 +40,7 @@ NetApp은 모니터링 서비스 사용에 대해 비용을 청구하지 않지�
 
 == 모니터링 서비스의 작동 방식
 
-Cloud Manager는 을 활용합니다 https://cloud.netapp.com/cloud-insights["NetApp의 Cloud Insights 서비스"] 모니터링 제공
+Cloud Manager는 을 활용합니다 https://cloud.netapp.com/cloud-insights["NetApp의 Cloud Insights 서비스"^] 모니터링 제공
 
 고수준에서 Cloud Insights와 Cloud Manager의 통합은 다음과 같이 작동합니다.
 
@@ -101,8 +101,8 @@ Cloud Manager의 모니터링 탭은 볼륨에 대한 기본 성능 데이터를
 
 Cloud Manager를 사용하면 Cloud Insights의 무료 평가판을 통해 클라우드 관리자 내에서 성능 데이터를 제공하고 Cloud Insights Standard Edition이 제공하는 기능을 탐색할 수 있습니다.
 
-29일, 귀하의 계획은 시험 버전에서 로 자동 전환됩니다 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["기본 버전"^].
+29일, 귀하의 계획은 시험 버전에서 로 자동 전환됩니다 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["기본 버전"^]
 
 Cloud Insights 웹 인터페이스에서 추가 기능에 액세스할 수 있도록 Standard 또는 Premium Edition을 구독할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["Cloud Insights 구독 방법에 대해 알아보십시오"^].
+https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["Cloud Insights 구독 방법에 대해 알아보십시오"^]

@@ -45,7 +45,6 @@
   <block id="10e15e8c8cca4454457cc4aaa2a56097" category="section-title">2020년 5월 10일</block>
   <block id="bd64f294036bab1f6e7e3bfc511da26b" category="section-title">모니터링 서비스를 소개합니다</block>
   <block id="2e68ff3befd8bbfb2e75d69f325369b3" category="paragraph">NetApp의 Cloud Insights 서비스를 활용하여 Cloud Manager는 Cloud Volumes ONTAP 인스턴스의 상태와 성능에 대한 통찰력을 제공하며 클라우드 스토리지 환경의 성능을 문제 해결 및 최적화할 수 있도록 도와줍니다.</block>
-  <block id="aa6490d8d0bb54f0f72cb49b62bd06bf" category="doc">볼륨 성능 모니터링을 시작합니다</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
   <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">다음 요구 사항을 읽고 지원되는 구성이 있는지 확인합니다.</block>
   <block id="e448b41406bd3d4d9730e610e85df32d" category="list-text">지원되는 Cloud Volumes ONTAP 버전</block>
@@ -113,7 +112,6 @@
   <block id="fa19b0daec31b7f6886f071c67bfffb7" category="paragraph">NetApp은 모니터링 서비스 사용에 대해 비용을 청구하지 않지만, Cloud Manager는 VPC에서 모니터링을 지원하는 가상 머신을 실행합니다. 이 VM은 클라우드 공급자가 비용을 청구합니다.</block>
   <block id="d503d3398231cca32efdcf7ed7343e9b" category="section-title">모니터링 서비스의 작동 방식</block>
   <block id="fbc1b4a0f7bb67078efc945ccc522209" category="inline-link">NetApp의 Cloud Insights 서비스</block>
-  <block id="86dd05002b53a9ec34631df8c61c5eb5" category="paragraph">Cloud Manager는 을 활용합니다<block ref="8f14085ef9c431637844b17f8a8925a1" category="inline-link-rx"></block> 모니터링 제공</block>
   <block id="45c5224446b8976746c72ff5d83fa9b0" category="paragraph">고수준에서 Cloud Insights와 Cloud Manager의 통합은 다음과 같이 작동합니다.</block>
   <block id="268403689d82b63a213d45d09ea47780" category="list-text">Cloud Volumes ONTAP에서 모니터링 서비스를 활성화합니다.</block>
   <block id="6ac560cbe2255cabde3b2b9e7877bcb8" category="list-text">Cloud Manager가 환경을 구성합니다. 다음과 같은 작업을 수행합니다.</block>
@@ -143,7 +141,6 @@
   <block id="93640c5afac4938bee23d7df2567bb9d" category="paragraph">Cloud Manager를 사용하면 Cloud Insights의 무료 평가판을 통해 클라우드 관리자 내에서 성능 데이터를 제공하고 Cloud Insights Standard Edition이 제공하는 기능을 탐색할 수 있습니다.</block>
   <block id="3b7f31bb4dbb02b16991990721560e9e" category="paragraph">Cloud Insights 웹 인터페이스에서 추가 기능에 액세스할 수 있도록 Standard 또는 Premium Edition을 구독할 수 있습니다.</block>
   <block id="cd787eb9914f30d028c173de936884d8" category="inline-link">Cloud Insights 구독 방법에 대해 알아보십시오</block>
-  <block id="ea897b0b99e2fad4f21581f468aafa9c" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block>.</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="7ccaf84febc0ed633fbdbadb8d488a7e" category="paragraph"><block ref="7ccaf84febc0ed633fbdbadb8d488a7e" category="inline-link-macro-rx"></block></block>
@@ -170,4 +167,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021년 8월 1일</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021년 2월 9일</block>
+  <block id="69fc053eff677eeec878466b0fed698d" category="paragraph">Cloud Manager는 을 활용합니다<block ref="044f4e0e04c4f89c85847517222669b4" category="inline-link-rx"></block> 모니터링 제공</block>
+  <block id="9553e123fee6cb25d4b917ebf7b88617" category="paragraph">29일, 귀하의 계획은 시험 버전에서 로 자동 전환됩니다<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block></block>
+  <block id="46bde63c6461fde9a8b1bdd87e23ae20" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block></block>
 </blocks>

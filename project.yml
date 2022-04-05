@@ -22,7 +22,7 @@ sidebar:
       url: "/concept-monitoring.html"
     - title: 빠른 시작
       url: "/task-quick-start.html"
-    - title: 볼륨 성능 모니터링을 시작합니다
+    - title: 모니터링을 활성화합니다
       url: "/task-enable-monitoring.html"
   - title: 모니터링 서비스를 사용합니다
     entries:
